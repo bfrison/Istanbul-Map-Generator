@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="130.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="istanbulmapgenerator.DisplayOriginalMapController">
+   <children>
+      <GridPane layoutX="14.0" layoutY="14.0" AnchorPane.topAnchor="30.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="index0" text="Label" />
+            <Label fx:id="index1" text="Label" GridPane.columnIndex="1" />
+            <Label fx:id="index2" text="Label" GridPane.columnIndex="2" />
+            <Label fx:id="index3" text="Label" GridPane.columnIndex="3" />
+            <Label fx:id="index4" text="Label" GridPane.rowIndex="1" />
+            <Label fx:id="index5" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="index6" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="index7" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="index8" text="Label" GridPane.rowIndex="2" />
+            <Label fx:id="index9" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="index10" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="index11" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label fx:id="index12" text="Label" GridPane.rowIndex="3" />
+            <Label fx:id="index13" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="index14" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="index15" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Label layoutX="179.0" layoutY="6.0" text="Original Map" />
+   </children>
+</AnchorPane>

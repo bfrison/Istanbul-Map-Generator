@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="istanbulmapgenerator.MainMenuController">
+    <children>
+        <Label fx:id="label" layoutX="97.0" layoutY="14.0" minHeight="16" minWidth="69" text="Istanbul Map Generator" />
+      <Button layoutX="96.0" layoutY="117.0" mnemonicParsing="false" onAction="#generateMap" text="Generate Map" />
+      <RadioButton fx:id="rb_original" layoutX="96.0" layoutY="59.0" mnemonicParsing="false" selected="true" text="Original Version">
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleGroup1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rb_mnb" layoutX="96.0" layoutY="85.0" mnemonicParsing="false" text="Mocha &amp; Baksheesh" toggleGroup="$toggleGroup1" />
+    </children>
+</AnchorPane>
