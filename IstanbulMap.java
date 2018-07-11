@@ -34,9 +34,6 @@ public class IstanbulMap{
             default:
                 throw new UnsupportedOperationException("Game Version is not supported");
         }
-        List<Integer> mapValues = IntStream.rangeClosed(1, mapSize)
-                .boxed()
-                .collect(Collectors.toList());
 
         this.tiles = new ArrayList<>(tilesGenerator(r));
         enforceFountainRule(r);
