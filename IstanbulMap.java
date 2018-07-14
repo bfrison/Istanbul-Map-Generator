@@ -93,7 +93,7 @@ public class IstanbulMap{
         return Math.abs(deltaX) + Math.abs(deltaY);
     }
 
-    //This method is used to tiles list:
+    //This method is used to print the tiles list for testing:
     public void printMap(PrintStream printStream) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < mapSize; i++) {
